@@ -1,6 +1,7 @@
 import React, { createRef, useState } from "react";
-// import Item from './Item';
 
+
+// ------- Class Component -----------
 // class Item extends React.Component {
 //   render() {
 //     return <li>
@@ -72,6 +73,10 @@ import React, { createRef, useState } from "react";
 //     }
 // }
 
+// ------- End Class Component -----------
+
+
+// ------- Functional Component -----------
 const Item = ({name, price}) => (
   <li>{name}, ${price}</li>
 );
@@ -108,5 +113,7 @@ const App = props => {
     </div>
   )
 }
+
+// ------- End Functional Component -----------
 
 export default App
